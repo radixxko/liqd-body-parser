@@ -1,0 +1,55 @@
+Received: from lb-proxy-12.websupport.sk (unknown [10.10.2.12])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail-proxyout-mua-3.websupport.sk (Postfix) with ESMTPS id 99542C4B66
+	for <geno@radixxko.com>; Fri, 19 Oct 2018 15:41:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=polomcak.com;
+	s=mail; t=1539956519;
+	bh=B14XygbWJm43MwsIHcxJ+NU2cgGQ5jNpzD0z0dTaEIo=;
+	h=Date:From:To:Subject;
+	b=cpM8rhHCAgonxGRYJtSjLJLsDkT5xSC78rFZSUOEAjQ9/ILJ6yFTDJMIcVmvj1eKB
+	 rg+YeQDqXGYPxsqIaTKaIdVuW5kXg5zvHfIYkJ+MxvZsjoornkEUKigtzVyEk6Xa4q
+	 aCu4X7XTq8l86EZKKTGlaglRtg57MmUk7F2eQ/Ec=
+Received: from localhost (unknown [37.9.173.198])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: alex@polomcak.com)
+	by lb-proxy-12.websupport.sk (Postfix) with ESMTPSA id 42c6XR1mXjz5mJB
+	for <geno@radixxko.com>; Fri, 19 Oct 2018 15:41:59 +0200 (CEST)
+Received: from 170728.pp.3pp.slovanet.sk (170728.pp.3pp.slovanet.sk
+ [84.16.46.35]) by webmail.polomcak.com (Horde Framework) with HTTP; Fri, 19
+ Oct 2018 13:41:58 +0000
+Date: Fri, 19 Oct 2018 13:41:58 +0000
+Message-ID: <20181019134158.Horde.o9g6Tw-rSDyeyaxAIxJe01G@webmail.polomcak.com>
+From: alex@polomcak.com
+To: geno@radixxko.com
+Subject: TEST
+User-Agent: Horde Application Framework 5
+Content-Type: multipart/alternative; boundary="=_QNttSGlYJ8BpWxKXHUEuRTl"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+This message is in MIME format.
+
+--=_QNttSGlYJ8BpWxKXHUEuRTl
+Content-Type: text/plain; charset=utf-8; format=flowed; DelSp=Yes
+Content-Description: Plaintext Message
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+shojsk ok.asd asd SAD sd ads
+asd=C2=A0
+asd asdsadasd
+
+--=_QNttSGlYJ8BpWxKXHUEuRTl
+Content-Type: text/html; charset=utf-8
+Content-Description: HTML Message
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body style="font-family:Arial;font-size:14px"><br>
+shojsk ok.asd asd <strong>sad</strong> sd ads<br>
+asd&nbsp;<br>
+asd asdsada<span style="background-color:#b22222;">sd</span><br></body></html>
+
+--=_QNttSGlYJ8BpWxKXHUEuRTl--

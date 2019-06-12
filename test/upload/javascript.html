@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style>
+            html, body{ margin:0; padding:0; background-color: #fff; font-family: Arial, Tahoma, Helvetica, sans-serif; color: #737373; font-size: 15px; overflow: hidden; font-weight: normal; }
+        </style>
+		<script type="text/javascript" src="uploader.js"></script>
+        <script>
+			function initUploader( upldElement, type, fileElement, fileAreaUpload )
+			{
+				upldElement.setAttribute( 'ondragend', 'return Uploader.ondragend(this,event)' );
+				upldElement.setAttribute( 'ondragleave', 'return Uploader.ondragleave(this,event)' );
+				upldElement.setAttribute( 'ondrop', 'return Uploader.ondrop(this,event)' );
+				upldElement.setAttribute( 'ondragover', 'return Uploader.ondragover(this)' );
+				upldElement.setAttribute( 'onclick', 'return Uploader.onclick(this)' );
+				upldElement.setAttribute( 'onmouseenter', '' );
+
+				var optionUploader =
+					{
+						id 				    : type,
+						url 			    : 'http://localhost:8080/upload',
+						fileElement 	    : '#'+fileElement,
+						multiupload		    : true,
+						acceptedTypes	    : [],
+						prerender           : function( uid, name )
+						{
+							var preElement = document.createElement('div');
+								preElement.className = 'document-upload-item';
+								preElement.setAttribute('data-id', uid);
+								preElement.innerHTML = name+'<div class="document-upload-control idicator"><div id="progress_'+uid+'" class="progress-indicator" style=""></div></div>';
+								document.querySelector( '#'+fileAreaUpload ).innerHTML = '';
+								document.querySelector( '#'+fileAreaUpload ).appendChild(preElement);
+						},
+						render			    : function( data, uid )
+						{
+							data = JSON.parse(data);
+
+							document.querySelector('.document-upload-item[data-id="'+uid+'"]').innerHTML = '<input type="hidden" name="file-'+uid+'" id="file-'+uid+'" value="'+data.file.path+'"/><input type="hidden" name="filename-'+uid+'" id="filename-'+uid+'" value="'+data.file.name+'"/>'+data.file.name+'<div class="document-upload-control">'+Uploader.getSize( data.file.size )+'</div>'; //<span onclick="this.parentSelector('.document-upload-item').remove();" class="fa fa-remove pointer" style="margin-left: 5px;"></span>
+
+							var updateButton = document.createElement('div');
+								updateButton.id = 'upload-area';
+								updateButton.className = 'button';
+								updateButton.setAttribute('style','margin-right:10px;');
+								updateButton.setAttribute( 'data-id', 'file-'+uid );
+								updateButton.onclick = Dashboard.Overview.updateServer;
+								updateButton.innerHTML = 'Update';
+							document.querySelector('#upload-area').parentNode.replaceChild( updateButton , document.querySelector('#upload-area') );
+
+						},
+						dragoverClass 	: 'button',
+						dragleaveClass 	: 'button cancel',
+						dragendClass 	: 'button cancel'
+					};
+
+
+				Uploader.init( optionUploader );
+			}
+
+        </script>
+    </head>
+    <body>
+        <div class="obsah">
+            <div>
+				<div id="result" style="padding: 25px;"></div>
+				<span style="margin-right: 10px;" id="upload-area" class="button cancel" ondragover="this.onmouseenter()" onmouseenter="initUploader( this, 'server', this.id,'upload-area-response' )"> <span class="fa fa-cloud-upload"></span> Drag here or browse to upload</span>
+				<div id="upload-area-response"></div>
+            </div>
+        </div>
+    </body>
+</html>

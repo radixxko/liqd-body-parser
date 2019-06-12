@@ -1,0 +1,47 @@
+Received: from smtp-01-out.s.azet.sk (localhost [127.0.0.1])
+	by email-be-09.e.etech.sk (Postfix) with ESMTP id 096754015D
+	for <kok@radixxko.com>; Fri, 19 Oct 2018 15:44:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=azet.sk; s=azet;
+	t=1539956699; bh=monbJ0dMZK4Nj6V3fXu5e9GuTI46gGkBWOlPlp65DZQ=;
+	h=Date:Subject:From:To:From;
+	b=rtefVSnPYFLfQkjQCNaQpgrpJx/US94ZkW5Qy/FFK9W4mOjGEueSam8rW2WjvceTK
+	 igYM+lrRclG5ekqrauO/W0I9qOgC8WDFxEGjWGfjGzIMlIl4tja+G74b9EDJxFHAO9
+	 CpzdWdUMvjqiNSAoVahhy8oe/EvwhXZddRsstWlg=
+X-Virus-Scanned: by AntiSpam at azet.sk
+X-Spam-Flag: NO
+MIME-Version: 1.0
+Sender: owen26@azet.sk
+X-MimeOLE: Azet.sk (WebMail Azet.sk v2.0)
+X-Azet-Deliver: 1539956665.565078 (.9)
+Message-ID: <153995669809.15988.10978787421160308898@mail-fe-09.e.etech.sk>
+X-Originating-IP: 84.16.46.35
+X-Priority: 3
+Importance: Medium
+X-MSMail-Priority: Medium
+Date: Fri, 19 Oct 2018 15:44:58 +0200
+X-Original-IP: 84.16.46.35
+X-Mailer: Azet.sk (WebMail Azet.sk v2.0)
+Subject: Azet mail
+From: "owen26" <owen26@azet.sk>
+To: kok@radixxko.com
+Content-Type: multipart/alternative; charset="utf-8";
+ boundary="===============6884225613311278895=="
+Content-Transfer-Encoding: quoted-printable
+X-Azet-Flatted: 1
+
+--===============6884225613311278895==
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Testujeme si totot ako najlepsia web sluzba** ever!**
+--===============6884225613311278895==
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<style type=3D"text/css"></style>
+                            <div id=3D"part_ad0b1ab546974aef99796b4f7fe4553=
+c"><div><div><p>Testujeme si totot ako <span style=3D"color:#A52A2A;">najle=
+psia</span> web sluzba<strong> ever!</strong></p></div></div></div>
+--===============6884225613311278895==--

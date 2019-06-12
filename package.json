@@ -1,0 +1,34 @@
+{
+  "name": "liqd-body-parser",
+  "description": "Request Body/MultiPart parser",
+  "version": "0.0.3",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/body_parser.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radixxko/liqd-body-parser.git"
+  },
+  "keywords": [
+    "request",
+    "body",
+    "multipart",
+    "parser",
+    "liqd"
+  ],
+  "dependencies": {
+    "liqd-multibuffer": "^1.0.7"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "mocha": "^5.0.4",
+    "nyc": "^14.1.1"
+  }
+}

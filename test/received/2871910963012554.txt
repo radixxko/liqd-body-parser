@@ -1,0 +1,47 @@
+Received: by mail-it1-f176.google.com with SMTP id 74-v6so3911477itw.1;
+        Fri, 19 Oct 2018 04:36:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=mfhcO52HVAqlnqrv8+b+BFIk6PcxyqvCpQTkdo0Gmik=;
+        b=QZtCALDyMy9wtf33xQVFUtTryPuavcMJJfwD+iM9TlUXhAYC5EKbp9TsCDWFWGhO8i
+         YBotFV3yJ05o+94Ya0j+KtoExSm1KfTGMaK+p5w4UmRorf7PeBUAYuaO4AA87rHHuJbD
+         wfMbJwUPC+ijA/aGmq7qB3FcI8L5oU/raQ4TRiekBmnt866z4wACDkaZNUrlsFLyfIMC
+         +kjZlyE4Z5rqqgWW0ilsvsB5ve1rN/MmU1Cy8jzBnxn1sE2urGEwT3zmeR4O9GfE+2C/
+         1wjbjKWLDijdIjRFM0Gt+Wzz6iFMkJzx2+3rPYeMGOmuKUC1D9bLquFcIByGj2aV2m/D
+         U8uw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=mfhcO52HVAqlnqrv8+b+BFIk6PcxyqvCpQTkdo0Gmik=;
+        b=g+af0uh8hesnRXiiKx4QRU5zamfpBmN2Hu2jvgghGNTfYHgiS0wADyZPpL2wk6fhMK
+         TcNBv5thuqrBYk9xQqz6NAJbRuqQAZJcrGXrL9hU1J19MqENwYbZja/X7jQDm3GmtPy3
+         qf4MZLu5ncZTGkp7fPpWPjfqmSeQP+jtlMynkw13/0w8yVaWG5f/w+970YxUgLoW1PBf
+         b+328nPIEXU3M5v7pyBwUqk816GuMQ7ip/+BdzyREwvOIXGiIlONSyvfSpgZX1R9jV2l
+         XP0sXEG/KIyzjHOWyaurEVL9mjJXMiz8Q3mJ3Ptd/n633ePpUVPhcH2jB+rge1lMgpIp
+         fC3g==
+X-Gm-Message-State: ABuFfoj8NbKi2sbTOmFlSj/wRQEU2NdHmNYioyv8egNz6IqD86ezmIKL
+	k9RPpIIIOVha7pIU86wUuwa7vixLY6csKPdoJQPUbg==
+X-Google-Smtp-Source: ACcGV62kaF9EniCLIHP4eCgoGxRgxgpEDwstP3vCJJWnPAigEG1E1Pk7A8JHj9eaW4MyuAyndeeQPjhcGHmy+u/DAA4=
+X-Received: by 2002:a05:660c:18d:: with SMTP id v13mr2900548itj.135.1539948967119;
+ Fri, 19 Oct 2018 04:36:07 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?B?VG9tw6HFoSBLb3Jlbmtv?= <radixxko@gmail.com>
+Date: Fri, 19 Oct 2018 13:35:56 +0200
+Message-ID: <CAESNpNHLa3A13hT=EQy1QETLcVuQPt5YBxz7N4-rSNH1qnW1_Q@mail.gmail.com>
+Subject: Velaludova sprava
+To: tomas@radixxko.com, radixxko@radixxko.com
+Cc: tomasko@radixxko.com, janko@radixxko.com
+Content-Type: multipart/alternative; boundary="0000000000002852200578934ff5"
+
+--0000000000002852200578934ff5
+Content-Type: text/plain; charset="UTF-8"
+
+Sprava vela ludom
+
+--0000000000002852200578934ff5
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">Sprava vela ludom</div>
+
+--0000000000002852200578934ff5--

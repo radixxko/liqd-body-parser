@@ -1,0 +1,45 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1539956804; bh=hj6UF7zu93KSZV/+f07C137nNHz0ZXotmDAMH+2Pgks=; h=Date:From:To:Cc:Subject:References:From:Subject; b=eDrObxtrO6pG0nUxFGH9VE2nLOsGodDmtV1qitFf3YJwYZC0tgclCKNAjQ1N/+u/DBfe21L/nG8DB5zvWhWgh8hYjDQAQ1Gs3NdbkO4c7P7Cly7laBlfoopnIQdm6LAH9gS77dBCaxdn/ptjGkeCnyugqYgRxNJVYwXB41r5bHrgwAgsnH+qN/9pJkx4frysdx7jTEpCTDaXpWlT4g6Rrgv+HjsitdFT9aSdBHevyYRUWfaim95SJF4wQtu9afZ+FuO3Mzj6JzHWQ1KBCWvNU+h/J8NV1KhX2ZOIfV37xXb5XkExlur2ZTuA8NZX8fbFbYYttj+8iw+FXCuVzRhRqg==
+X-YMail-OSG: L7LYwOAVM1kMD6.1S7xWoGoG3Q2r_xmJFoxi1dnnKqBkBxfpBICOnBwbGlGuwp.
+ J3YV4TqO62VsSSK_vZLmt.xraocI75o8XU6oZg1dnvksZnEJ_TTuQAbiSvISjf.Gq0exCETb4ak6
+ sN8IssplWramwTiGhNonBJe07pbcTv8PyKSns3_0iihObpH6UxWKC65mPz6px3w2DEHfW4yBhdoL
+ R5UlNrA2FaZ5n.mg4AXiAIIKQi3DrW.vi0f5aLQO6KfiwVUboXg_kgJ6r3MHGXHTDvMEqmSy7Mdt
+ JGGCfEMUiVJHiERSzlI9h3WUJO3xzOLCU11OuWtxuzvamWITa67qiscAJvWAysDQxM2tCBkeAOaM
+ IVBdJ6g9r7.qNc_mhFdacWZlnEHuyjMKYwLC5UxOxu2Zpt9LasrxVR64IlMoTMp0bPqxqsocbR85
+ rt3rmvwKgfIUe2aEk190eOyRo_tZkRhlQW4dQbMvUJqvUNjQ3v4.iajvxMQ8MmqNxn5cPmUCpl3o
+ 7QhKkphHlBEdsLHqu6H0RB5Ev3dpTsRW6Gx9spwz67hnMadWiDejBUA1LmSxfGk15PO5icZ7i4Kh
+ LkePnLSVw82dnrA.bIpGxm9JTnmLsl4Emep47_n8TXtxXJuV112YUgim77ZLjixDuwZjDUapV8Oy
+ kuNUN6XHTHFs7LgM86uJxvxh1sVpaPfxZeLzdqUxLyA4ryRc.D.Jo09yJnjm51lXUgFqkVGNTARw
+ vszoh7zmkeQCxuifTdCpbah9WxSvFb.t0.tBWhWSew6msbDPG9K1U9Rc3NIdVh9WsflquDHfEFd0
+ LjWh1aYzINhEglO25aDJ1Rx1eVkOqNfU3835.qiZsud6Qs1LjUGDUbq9ZNfVnd3wiCkSteykcKfG
+ kswnlvuAOVqCj4jNC7AcDJB6Jr7O5nXDUsE4cNskgEFfubsWngWBcRyMeu4mRmuu.s9.1GecV8xg
+ 6B7ZznptrHG2yP4HnIHqA6DGLIAkPGV7Gv3O_VIUWOhi0kB6OPAcWmCgm8RxqH90Qgx.8DJQqCaW
+ 90RfRN8m6IK.uBd_HQ9zD7soZp3Mgya_N5S5ut63JJ0oj3CfSvsGohg--
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.gq1.yahoo.com with HTTP; Fri, 19 Oct 2018 13:46:44 +0000
+Date: Fri, 19 Oct 2018 13:46:43 +0000 (UTC)
+From: =?UTF-8?Q?Tom=C3=A1=C2=9A_Jakubec?= <t_jakubec@yahoo.com>
+To: "cc@radixxko.com" <cc@radixxko.com>
+Cc: "cca@radixxko.com" <cca@radixxko.com>
+Message-ID: <1934259004.13445955.1539956803740@mail.yahoo.com>
+Subject: bukakek
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_13445954_1598606487.1539956803739"
+References: <1934259004.13445955.1539956803740.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.12512 YMailNorrin Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Content-Length: 1377
+
+------=_Part_13445954_1598606487.1539956803739
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+  Via  sadasdasdasasdas das asasdasdasadasd
+------=_Part_13445954_1598606487.1539956803739
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html><head></head><body><div class="ydp9abc6e10yahoo-style-wrap" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;"><div><br></div><div class="yahoo-gif-wrapper" contenteditable="false">
+               <a rel="noreferrer" target="_blank" href="https://tenor.com/1nPB.gif" style="cursor:pointer;text-decoration: none;color:transparent"><img title="Real Housewives GIF" alt="Real Housewives GIF" src="https://media.tenor.com/images/29f0e21122df53109f167176380b7f53/tenor.gif" class="yahoo-inline-image yahoo-online-gif" data-id="1539956787241" draggable="false">
+                   <div style="font-size:11px;color:#979ba7;margin-top:8px;font-family:Arial" class="rte-gif-attribution">Via <img src="https://s.yimg.com/nq/gif-providers/1/gif-providers/tenor.png" data-inlineimagemanipulating="true" class="" draggable="false"></div>
+               </a></div><div><font color="#cd232c">sadasdasdas<span style="background-color: rgb(253, 239, 43);">asdas das asasdasdasadasd</span></font></div></div></body></html>
+------=_Part_13445954_1598606487.1539956803739--

@@ -1,0 +1,46 @@
+Received: by mail-it1-f178.google.com with SMTP id p64-v6so4481735itp.0
+        for <radixxko@radixxko.com>; Fri, 19 Oct 2018 06:32:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=AakxFiRD1U1Us48N8a3hf9hdEWPVeAn+8jAD3aGoj2s=;
+        b=A9+BFoy1lJLnkizndDZciD1JJlee7jDHxUhojjbk3gOF23lj9w7aX12uYSKYKe9Jyg
+         nk7/YWpGpZK3KQN1r8QvNC/UD9IYzbgYKCU1GeCcE7PD74TOcN0scZWL8CvX8Z5sGx/v
+         QgVVf5FZRaAK0spuNKIdfKAtFgUFIrLRK1Hl02exobcHrtdT3xM8+JNmb2ziIzebNqX3
+         QIFnd/i2Shpbv1RX2a/Eq75sPlPphFMRMgo9QIxFp1FuxEdZt9hJr21GjtUMi4EFFbKJ
+         n7DJEjclrwnr2QMSHaMNSBXWWDUOsCMYPoT8Y8sokpVPrlKioG6DBarlv68jU262PHeL
+         RdhQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=AakxFiRD1U1Us48N8a3hf9hdEWPVeAn+8jAD3aGoj2s=;
+        b=dqKrP1JMyc1rIw4E4YR44fpU7gpfvl+UkEjP8nbqqi6V+db1Dd7BYIMd6Umx7tvuvj
+         7q3c6ESwWq21o7uZq7GqUwsIOiJ8nnVoXNnpkLSKAWFhNrtBteFP5V9HHsEZ9k3dqYFN
+         kXT5Ue90bZ66bX8g6HMpuHaSV2mqxrxqIIiN+vqT/JJSX44mFG0PAAjOhhrGniCy2C7R
+         hfCm0eCiG8NPrhh7MNsGAisOCj6/7gXljFxz8Y695IBWiqpv17g9rWoA6+KV1U6xfIud
+         U7eQVcMLmJg7zg14zDqkmzRKj2YAlzbl3h1naLAPVY+b3kGXT1tYEAhAbSQe2Cig4/5w
+         RJ+Q==
+X-Gm-Message-State: ABuFfoi4NnOL6NMLjLImA8Dcl4ByrX6glO2E0/O4Rk9Uqlfqw1ZWp2Dc
+	AfgfXxPcybshVW/HIVLOVHAr3IU9ZeW3bn7tpMl3FQ==
+X-Google-Smtp-Source: ACcGV62NEWwL6oakyMJVl/GPNs+BLn8TbyhEc79DN/PbBfdJyUlymQkWP318pbuqGS38HWYig3tK+9SuCJGX4iIHxfo=
+X-Received: by 2002:a05:660c:18d:: with SMTP id v13mr3175781itj.135.1539955975326;
+ Fri, 19 Oct 2018 06:32:55 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?B?VG9tw6HFoSBLb3Jlbmtv?= <radixxko@gmail.com>
+Date: Fri, 19 Oct 2018 15:32:44 +0200
+Message-ID: <CAESNpNG2-xeeOes_RhtM713TkK6h9Zw2AJiLLEmyrN-JnR79EA@mail.gmail.com>
+Subject: halo ha
+To: radixxko@radixxko.com
+Content-Type: multipart/alternative; boundary="000000000000e111b3057894f0a8"
+
+--000000000000e111b3057894f0a8
+Content-Type: text/plain; charset="UTF-8"
+
+halo ho
+
+--000000000000e111b3057894f0a8
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">halo ho</div>
+
+--000000000000e111b3057894f0a8--

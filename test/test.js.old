@@ -1,0 +1,49 @@
+'use strict';
+
+/*
+
+let chars = '()<>@,;:\\"/[]?={}';
+let codes = [128], code = 33, re = '';
+
+for( let i = 0; i < chars.length; ++i )
+{
+    codes.push(chars.charCodeAt(i));
+}
+
+codes.sort(( a, b ) => a - b );
+
+console.log( codes );
+
+while( code < 127 && codes )
+{
+    let skip = codes.shift();
+
+    if( skip > code )
+    {
+        if( skip - 1 === code )
+        {
+            re += '\\x'+('0'+code.toString(16)).substr(-2);
+        }
+        else
+        {
+            re += '\\x'+('0'+code.toString(16)).substr(-2) + '-\\x' + ('0'+(skip - 1).toString(16)).substr(-2);
+        }
+    }
+
+    code = skip + 1;
+}
+
+console.log( re );
+*/
+
+const fs = require('fs');
+const MultipartParser = require('../lib/body_parser');
+
+const parser = new MultipartParser();
+
+//let stream = fs.createReadStream( __dirname + '/received/627105576103664.txt', { highWaterMark: 128 });
+//let stream = fs.createReadStream( __dirname + '/received/7024664927370021.txt', { highWaterMark: 128 });
+//let stream = fs.createReadStream( __dirname + '/received/4515743738113637.txt' );
+let stream = fs.createReadStream( __dirname + '/received/5886843567686571.txt', { highWaterMark: 128 });
+
+stream.on('end', () => console.log( parser.body() )).pipe( parser )
